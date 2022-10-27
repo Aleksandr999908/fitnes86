@@ -11,11 +11,11 @@
 	
 	<!--header start-->
      <header class="header">
-		<div class="wrapper">
+		<div class="wrapper__hed">
 		  <div class="header__wrapper">
 			<div class="header__logo">
 				<a href="/" class="header__logo-link">
-					<img src="image/Logo.png" alt="logo" class="header__logo-pic" width="100" >
+					<img src="image/Logo.png" alt="logo" class="header__logo-pic" width="80" >
 				</a>
 			</div>
 			<nav class="header__nav">
@@ -57,12 +57,37 @@
 		<!--intro start-->
 		<section class="intro">
 			<div class="wrapper">
+				<blockquote class="blockquote-1">
+					<p>"Walk in strong crawl out stronger"</p>
+					
+				</blockquote>
+			  <div class="intro__wrapper">
+				
+                <div class="img__intro">
+					<img src="./image/img__1.jpg" alt="тренер" width="600" class="img__intro-pic">
+				</div>
+				<div class="block">
 				<h1 class="intro__title">
-					Абдурахманов Александр Скала
+					<font color="#000"><strong>Абдурахманов Александр</strong></font>
 				</h1>
 				<p class="intro__subtitle">
-					 Тренируйся с лучшими чтобы стать лучшим!
+					<strong><font color="#000">Тренируйся с лучшими чтобы стать</font> <font color="#FF9400">лучшим!</font></strong>
 				</p>
+				<form class="form__intro" action="" method="post">
+				  <label for="name">
+					<input type="text" id="name" name="username" value="Имя" size="30" class="type-1" required>
+				  </label>
+				  <label for="tel">
+					<input type="tel" id="tel" name="phone" value="+7" size="30" class="type-2" required>
+				  </label>
+				  <label for="email">
+					<input type="email" id="email" name="email@" value="Почта" size="30" class="type-3" required>
+				  </label>
+				  <button type="submit" class="intro__button">Оставить заявку</button>
+				</form>
+				
+			  </div>
+			</div>
 			</div>
 
 
@@ -75,49 +100,49 @@
 		<section class="benefits" id="benefits_full">
 			<div class="benefits__wrap">
 				<h2 class="benefits__title">
-					Преимущества тренировок со мной
+					<strong>Преимущества тренировок со мной</strong>
 				</h2>
 				<div class="benefits__cards">
-					<div class="benefits__card">
+					<div class="benefits__card cards__1">
 						<div class="benefits__card-pic">
 							<img src="./image/restaurant_meal_cutlery_love_heart_favorite_food_icon_179354.png" alt="icon" class="benefits__card-thumb">
 						</div>
 						<h3 class="benefits__card-title">
-						  Контроль питания
+						  <strong>Контроль питания</strong>
 						</h3>
 						<p class="benefits__card-desc">
-						  План правильного питания для достижения идеального тела
+						  <strong>План правильного питания для достижения идеального тела</strong>
 						</p>
 						<a href="#!" class="benefits__card-more">
-							Узнать больше
+							<strong>Узнать больше</strong>
 						</a>
 					</div>
-					<div class="benefits__card">
+					<div class="benefits__card cards__2">
 						<div class="benefits__card-pic">
 							<img src="./image/штанга.png" alt="icon" class="benefits__card-thumb">
 						</div>
 						<h3 class="benefits__card-title">
-						  Программа тренировок
+						  <strong>Программа тренировок</strong>
 						</h3>
 						<p class="benefits__card-desc">
-						  Взрывной рост результата, для достижения поставленной цели
+						  <strong>Взрывной рост результата, для достижения поставленной цели</strong>
 						</p>
 						<a href="#!" class="benefits__card-more">
-							Узнать больше
+							<strong>Узнать больше</strong>
 						</a>
 					</div>
-					<div class="benefits__card">
+					<div class="benefits__card cards__3">
                         <div class="benefits__card-pic">
 							<img src="./image/техника.png" alt="icon" class="benefits__card-thumb">
 						</div>
 						<h3 class="benefits__card-title">
-						  Правильная техника 
+						  <strong>Правильная техника</strong>
 						</h3>
 						<p class="benefits__card-desc">
-						  Выполняя упражнение чувствовать целевую мышцу
+						  <strong>Выполняя упражнение чувствовать целевую мышцу</strong>
 						</p>
 						<a href="#!" class="benefits__card-more">
-							Узнать больше
+							<strong>Узнать больше</strong>
 						</a>
 					</div>
 				</div>
@@ -129,7 +154,7 @@
 		<div class="wrapper__full">
 		    <div class="places__caption">
 			    <h2 class="places__title section-title">
-				  Спортивная карьера
+				  <strong>Спортивная карьера</strong>
 			    </h2>
 				<a href="#!" class="places__view-all">Далее</a>
 		    </div>
@@ -176,8 +201,38 @@
 
     <!--Videos end-->
 
- </main>
-	 
+    <!--form start-->
+    <section class="form_fitness">
+		<div class="wrapper">
+			
+			<div class="form">
+				
+				<form class="form__intro form__intro__f" action="" method="post">
+					<h3 class="title__form">
+						<strong>Запишитесь<br> на бесплатное занятие</strong>
+					</h3>
+					<label for="name">
+					  <input type="text" id="name" name="username" value="Имя" size="30" class="type-1 type-4" required>
+					</label>
+					<label for="tel">
+					  <input type="tel" id="tel" name="phone" value="+7" size="30" class="type-2 type-5"  required>
+					</label>
+					<label for="email">
+					  <input type="email" id="email" name="email@" value="Почта" size="30" class="type-3 type-6" required>
+					</label>
+					<button type="submit" class="intro__button">Оставить заявку</button>
+				  </form>
+
+				<div class="map">
+					<a class="dg-widget-link" href="http://2gis.ru/surgut/firm/70000001037759275/center/73.40882062911989,61.26936638059575/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Сургута</a><div class="dg-widget-link"><a href="http://2gis.ru/surgut/firm/70000001037759275/photos/70000001037759275/center/73.40882062911989,61.26936638059575/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/surgut/center/73.408814,61.269175/zoom/16/routeTab/rsType/bus/to/73.408814,61.269175╎Спортивный комплекс, Региональный центр адаптивного спорта?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Спортивный комплекс, Региональный центр адаптивного спорта</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":440,"height":400,"borderColor":"#a3a3a3","pos":{"lat":61.26936638059575,"lon":73.40882062911989,"zoom":16},"opt":{"city":"surgut"},"org":[{"id":"70000001037759275"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!--form end-->
+
+</main> 
     <!--Footer start-->
 
 	<footer class="footer">
