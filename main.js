@@ -7,9 +7,13 @@
         header.classList.add('header_active');
       } else {
         header.classList.remove('header_active');
+        
       }
    };
 }());
+
+
+
 
 //Header
 
@@ -65,3 +69,8 @@ document.addEventListener('keydown', (evt) => {
  }
 
 });
+
+
+
+
+
