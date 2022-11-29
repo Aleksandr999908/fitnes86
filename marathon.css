@@ -87,7 +87,7 @@
     background: #750A30;
     width:100%;
     height: 80px;
-    border-radius: 20px;
+    
   }
   .header__wrapper {
     display: flex;
@@ -159,9 +159,7 @@
 
 
 /*Header style end*/
-.container{
-  
-}
+
 .wrapper__cont {
   max-width: 1440px;
   margin: 0 auto;
@@ -170,7 +168,7 @@
 }
 .yahood{
   background: url(./image/maxresdefault.jpg) no-repeat center;
-  margin-top: 180px;
+  margin-top: 80px;
   height: 700px;
     
 }
@@ -209,7 +207,7 @@ a.buttons {
 
 a.buttons:not(.active) {
   box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
-  background-image: linear-gradient(#090908, #80BD1B);
+  background-image: linear-gradient(#77AD17,#80BD1B);
   text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
 }
 
@@ -304,11 +302,11 @@ a.buttons:not(:hover) {
 
 /*Footer style start*/
 .footer{
-    border-radius:  20px;
+    
     max-width: 100%;
     margin: 0 auto;
     background-color: #750A30;
-    margin-bottom: 20px;
+    
     background-repeat: repeat-x;
     background-position: 0 0, 0 0, 0 100%, 0 100%;
     background-size: 12px 12px;
