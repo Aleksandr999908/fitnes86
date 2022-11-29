@@ -39,7 +39,7 @@
     line-height: 1.2;
     font-weight: normal;
     color: #102746;
-    background: #F8F8F8;
+    background: #F9FAFA;
     margin: 0;
   }
 
@@ -84,7 +84,7 @@
     transition: .2s linear;
     padding-bottom: 20px;
     z-index: 999;
-    background: rgba(0,0,0,0.6);
+    background: #202135;
     width:100%;
     height: 80px;
     
@@ -104,7 +104,7 @@
   }
   .header_active{
     
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(32, 33, 53, 0.7);
   }
   .header__list {
     display: flex;
@@ -128,7 +128,7 @@
 }
 
 .header__link:hover, .header__link:focus, .header__link:active{
- color: #EE6823;
+ color: #F1A02D;
 }
 
  .header__burger{
@@ -235,7 +235,7 @@ input {
 .intro__button{
   padding:10px;
   border:none;
-  background-color:#FF9400;
+  background-color:#F1A02D;
   box-shadow:0 0 4px rgba(0,0,0,0.3);
   color:#fff;
   font-weight:600;
@@ -253,13 +253,13 @@ input {
   padding: 16px 24px;
   position: relative;
   font-size: 20px;
-  background: #474444;
+  background: #A69E94;
   color: #C2EA18;
   font-style: italic;
 }
 .blockquote-1::before {
   border: 14px solid transparent;
-  border-top: 14px solid #474444;
+  border-top: 14px solid #A69E94;
   border-bottom: 0;
   height: 0;
   width: 0;
@@ -370,12 +370,18 @@ text-align: center;
 }
 .cards__1:hover{
   transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 .cards__2:hover{
   transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 .cards__3:hover{
   transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+.card__green{
+  
 }
 /*Benefits style end*/
 
@@ -502,15 +508,23 @@ transition: .15s all;
   
   max-width: 100%;
   margin: 0 auto;
-  background-color: #555554;
+  background-color: #3F4052;
   
   background-repeat: repeat-x;
   background-position: 0 0, 0 0, 0 100%, 0 100%;
   background-size: 12px 12px;
 }
+.wrapper__footer{
+  max-width: 1262px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 250px;
+}
+
+
 .footer__item{
   display: flex;
-  flex-wrap: wrap;
+  
   
 }
 .footer__logo{
@@ -526,16 +540,17 @@ transition: .15s all;
 }
 .footer__menu-link{
  text-decoration: none;
- color:black;
+ color:white;
  
  
 }
 .footer__menu-item{
   list-style-type: none;
 }
-.footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active {
-opacity: .50;
-}
+.footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active{
+  color: #F1A02D;
+ }
+
 .form{
   display: flex;
   justify-content: center;
@@ -630,9 +645,6 @@ opacity: .50;
     padding: 30px 15px 0px 15px;
     grid-column-gap: 35px;
       
-  }
-  .footer__menu-link{
-    
   }
   .benefits__title{
     padding-left: 20px;
